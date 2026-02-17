@@ -1,3 +1,4 @@
 streamlit
-pymavlink
+plotly
 numpy
+pymavlink
