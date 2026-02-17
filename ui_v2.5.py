@@ -31,7 +31,7 @@ st.markdown("""
 
 
 # ---------------- TITLE ----------------
-st.title("DroneAcharya Drone Health Detection — Degradation Analysis")
+st.title("DroneAcharya Drone Health Monitor — Degradation Analysis")
 
 
 import tempfile
@@ -357,4 +357,5 @@ if subs is not None:
     # ---------- OVERALL ----------
     st.header("Overall System Diagnosis")
     st.write(f"**Primary Bottleneck:** {bottleneck}")
+
     st.write(f"**Recommended Action:** {solution}")
