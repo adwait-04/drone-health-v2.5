@@ -31,7 +31,7 @@ st.markdown("""
 
 
 # ---------------- TITLE ----------------
-st.title("DroneAcharya Drone Health Monitor — Degradation Analysis")
+st.title("DroneAcharya Drone Health Monitoring & Degradation Analysis")
 
 
 import tempfile
@@ -359,3 +359,4 @@ if subs is not None:
     st.write(f"**Primary Bottleneck:** {bottleneck}")
 
     st.write(f"**Recommended Action:** {solution}")
+
